@@ -1,0 +1,396 @@
+.pd-0 {
+    padding: 0 !important;
+}
+
+.pdl-0 {
+    padding-left: 0 !important;
+}
+
+.pdr-0 {
+    padding-right: 0 !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-100 {
+    font-weight: 100;
+}
+
+.bold-200 {
+    font-weight: 200;
+}
+
+.bold-300 {
+    font-weight: 300;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.bold-800 {
+    font-weight: 800;
+}
+
+.bold-900 {
+    font-weight: 900;
+}
+
+.dropdown-menu-right {
+    margin-top: 5px;
+}
+
+.dropdown-menu-right:before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 40px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: transparent transparent #fff transparent;
+}
+
+h1.card-title {
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.off-canvas-sidebar .navbar.navbar-transparent {
+    padding-top: 10px !important;
+}
+
+.off-canvas-sidebar::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.off-canvas-sidebar::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 5px;
+}
+
+.home-page {
+    min-height: 80vh !important;
+}
+
+.tim-row {
+    margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+    background-color: #777777;
+}
+
+.typography-line {
+    padding-left: 25%;
+    margin-bottom: 35px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.typography-line span {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    position: absolute;
+    width: 260px;
+    text-transform: none;
+}
+
+.tim-row {
+    padding-top: 60px;
+}
+
+.tim-row h3 {
+    margin-top: 0;
+}
+
+.tim-typo {
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.tim-typo .tim-note {
+    bottom: 5px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+
+.card-reset {
+    transition: all .3s linear;
+    transform: translateZ(0);
+}
+
+.card-hidden {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+}
+
+.nav-link:hover {
+    background: hsla(0, 0%, 78%, .2);
+}
+
+.dropdown-menu {
+    -webkit-transition: all 1s ease-in-out;
+    /* Safari */
+    transition: all 1s ease-in-out;
+}
+
+.banks {
+    padding-top: 30px !important;
+}
+
+.banks-content {
+    padding: 20px;
+}
+
+.banks-content .bank-info {
+    padding-top: 30px;
+}
+
+.logo-bank {
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center;
+}
+
+.logo-bank .logo-src {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+/*the container must be positioned relative:*/
+.cus-select {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial;
+    border: 1px solid #e91e63e3;
+    border-radius: 2px;
+}
+
+.cus-select select {
+    display: none;
+    /*hide original SELECT element:*/
+
+}
+
+.cus-select .select-selected {
+    background-color: #e91e63e3;
+    border-radius: 2px;
+}
+
+/*style the arrow inside the select element:*/
+.cus-select .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.cus-select .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.cus-select .select-items div,
+.select-selected {
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.cus-select .select-items {
+    position: absolute;
+    background-color: #e91e63c2;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    z-index: 99;
+    border-radius: 2px;
+}
+
+/*hide the items when the select box is closed:*/
+.cus-select .select-hide {
+    display: none;
+}
+
+.cus-select .select-items {
+    height: 289px;
+    overflow-y: scroll;
+}
+
+.cus-select .select-items::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.cus-select .select-items::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 5px;
+}
+
+.cus-select .select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cus-select .select-items:before {
+    position: absolute;
+    content: "";
+    top: -11px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: transparent transparent #e91e63 transparent;
+}
+
+.cus-select .select-items.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+
+/*style items (options):*/
+.city-select {
+    position: relative;
+}
+
+.city-select select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+    /*background: #ea2c6d;*/
+    border: 1px solid #ea2c6d;
+    /*color: #fff;*/
+    padding: 0 10px;
+
+}
+
+.city-select:after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #ea2c6d transparent transparent transparent;
+}
+
+.city-select select option {
+    padding: 10px 0;
+}
+
+.cus-input {
+    width: 100%;
+    height: 37px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-family: Arial;
+    border: 1px solid #e91e63e3;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+#googleMap {
+    width:100%;
+    height:500px;
+}
+
+.copyright {
+    float: right;
+}
+
+/*SCREEN 640*/
+@media screen and (max-width: 767px) {
+    .pd-0 {
+        padding: 15px !important;
+    }
+
+    .pdl-0 {
+        padding-left: 15px !important;
+    }
+
+    .pdr-0 {
+        padding-right: 15px !important;
+    }
+
+    .banks {
+        padding-top: 20px !important;
+    }
+
+    .banks-content {
+        padding: 10px;
+    }
+
+    .banks-content .bank-image {
+        display: none;
+    }
+
+    .banks-content .bank-info {
+        padding-top: 0;
+    }
+
+    .logo-bank .logo-src {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+    }
+
+    #googleMap {
+        width:100%;
+        height:300px;
+    }
+
+    .copyright {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+}
